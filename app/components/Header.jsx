@@ -12,10 +12,9 @@ const Header = () => {
             isMenuOpen ? "block" : "hidden"
           } md:block md:space-x-4`}>
             <ul className='flex flex-col lg:space-x-4 md:space-x-4 md:flex-row space-y-2  md:space-y-0  font-bold text-lg  '>
-              <li><a href='#shop' className='text-secondary hover:text-[#2c1000] hover:text-xl'>Shop</a></li>
-              <li><a href='#products' className='text-secondary hover:text-[#2c1000] hover:text-xl'>Corporate Gifting</a></li>
-              <li><a href='#testimonals' className='text-secondary hover:text-[#2c1000] hover:text-xl'>About</a></li>
-              <li><a href='#contact' className='text-secondary hover:text-[#2c1000] hover:text-xl'>Contact</a></li>
+              <li><a href='#about' className='text-secondary hover:text-[#2c1000] hover:text-xl'>ABOUT</a></li>
+              <li><a href='#best' className='text-secondary hover:text-[#2c1000] hover:text-xl'>BEST SELLERS</a></li>
+              <li><a href='#contact' className='text-secondary hover:text-[#2c1000] hover:text-xl'>CONTACT US</a></li>
             </ul>
           </nav>
           <button
