@@ -52,7 +52,7 @@ const Imagefile = () => {
           title2="Best cookies ever 🍪"
         />
       </div>
-      <div className="relative bg-[#e9e6dd] pb-20">
+      <div className="relative bg-[#e9e6dd] pb-20" id = "about">
         <div className="container mx-auto px-4 md:px-8 text-center py-16">
           <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-8">
             Why Choose Our Cookies?
@@ -104,7 +104,7 @@ const Imagefile = () => {
           </svg>
         </div>
       </div>
-      <div className="container mx-auto px-4  md:px-8">
+      <div className="container mx-auto px-4  md:px-8" id = "best">
         <h2 className="text-2xl md:text-3xl font-bold text-secondary text-center mb-8 mt-44 ">Our Bestsellers</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <ProductCard image="https://rajasreesingamshetty5geetha.github.io/Assests-web/images/choco.jpg" title="Chocolate Cookie" description="A delightful selection of our gourmet cookies." price="25.00" />
