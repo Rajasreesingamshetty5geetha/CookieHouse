@@ -3,7 +3,7 @@ import {FaFacebookSquare, FaInstagramSquare, FaTwitterSquare} from 'react-icons/
 
 const Footer = () => {
   return (
-    <footer className='bg-[#e9e6dd]'>
+    <footer className='bg-[#e9e6dd] ' id = 'contact'>
       <div
         className="bg-cover bg-center relative py-16 rounded-t-2xl  "
         style={{
