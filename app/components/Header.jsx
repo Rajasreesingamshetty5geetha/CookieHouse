@@ -10,15 +10,15 @@ const Header = () => {
         <div className='flex flex-row  mx-2'>
           <nav className= {`${
             isMenuOpen ? "block" : "hidden"
-          } md:block md:space-x-4`}>
-            <ul className='flex flex-col lg:space-x-4 md:space-x-4 md:flex-row space-y-2  md:space-y-0  font-bold text-lg  '>
+          } md:block md:space-x-3`}>
+            <ul className='flex flex-col lg:space-x-4 md:space-x-4 md:flex-row space-y-2  md:space-y-0  font-bold text-lg ml-[25px]  '>
               <li><a href='#about' className='text-secondary hover:text-[#2c1000] hover:text-xl'>ABOUT</a></li>
               <li><a href='#best' className='text-secondary hover:text-[#2c1000] hover:text-xl'>BEST SELLERS</a></li>
               <li><a href='#contact' className='text-secondary hover:text-[#2c1000] hover:text-xl'>CONTACT US</a></li>
             </ul>
           </nav>
           <button
-            className='md:hidden text-secondary focus:outline-none'
+            className='md:hidden text-secondary focus:outline-none mb-36 -mx-3'
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           
           >
