@@ -28,11 +28,10 @@ const Header = () => {
               viewBox="0 0 24 24"
               strokeWidth="2"
               stroke="currentColor"
-              className="w-6 h-6 "
+              className={`w-6 h-6 ${isMenuOpen ? "mb-4" : ""}`}
             >
               {isMenuOpen ? (
                 <path
-                className = "margin"
                 strokeLinecap='round'
                 strokeLinejoin='round'
                 d = "M6 18L18 6M6 6l12 12"
