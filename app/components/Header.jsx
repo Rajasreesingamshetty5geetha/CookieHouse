@@ -32,7 +32,7 @@ const Header = () => {
             >
               {isMenuOpen ? (
                 <path
-                className = "mb-36"
+                className = "margin"
                 strokeLinecap='round'
                 strokeLinejoin='round'
                 d = "M6 18L18 6M6 6l12 12"
